@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+}
+
+.active{
+  color: green;
+
+}
+
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  font-weight: 1000;  
+}
+.titlesNav{
+  background-color: rgb(240, 205, 153);
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  gap: 40px;
+  padding: 25px;
+  color: white;
+  
+  
+}
+.backgroundNav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url(https://png.pngtree.com/background/20210717/original/pngtree-pizza-food-background-picture-image_1428608.jpg);
+}
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 205, 153);
+}
+
+.cardHome {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 5px;
+
+}
+img{
+  width: 200px;
+  height: 150px;
+  padding: 2px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid 2px black;
+  width: 600px;
+  height: 400px;
+  padding: 4px;
+}
