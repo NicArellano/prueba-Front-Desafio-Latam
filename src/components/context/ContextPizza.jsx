@@ -9,7 +9,7 @@ const PizzaProvider = ({children}) => {
     const getPizzas = async () => {
         try {
             
-            const res = await fetch('http://localhost:5173/pizzas.json')
+            const res = await fetch('../../../public/pizzas.json')
             const data = await res.json()
             setPizzas(data)
             
