@@ -5,6 +5,7 @@ export const ContextPizza = createContext()
 
 const PizzaProvider = ({children}) => {
     const [pizzas, setPizzas] = useState([])
+   
 
     const getPizzas = async () => {
         try {
