@@ -12,7 +12,7 @@ const Navbar = () => {
         </NavLink>
 
         <NavLink className={setActiveClass} to="/carrito">
-            Icono CARRO
+           CARRO
         </NavLink>
         </div>
         
