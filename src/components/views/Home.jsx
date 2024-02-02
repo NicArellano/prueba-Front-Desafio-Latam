@@ -10,7 +10,7 @@ const Home = () => {
 
   const navigate = useNavigate()
   const pizzaDetails = (id) => {
-    navigate(`/pizza/:${id}`)
+    navigate(`/pizza/${id}`)
   }
   
 
@@ -23,7 +23,7 @@ const Home = () => {
             <Card.Title>{pizza.name}</Card.Title>
             <Card.Text>{pizza.desc}</Card.Text>
             <Button variant="primary">Añadir Pizza</Button>
-            <Button onClick={(pizzaDetails(pizza.id))} variant="primary">Ver detalles</Button>
+            <Button onClick={() => pizzaDetails(pizza.id)} variant="primary">Ver detalles</Button>
           </Card.Body>
         </Card>
       ))}
